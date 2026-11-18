@@ -1,0 +1,12 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.nick353/jp-bank-code",
+  "title": "Japan Bank Code",
+  "description": "Japanese bank/branch codes with kana, transfer pre-checks, Japan Post Bank conversion. No API key.",
+  "version": "0.1.0",
+  "repository": { "url": "https://github.com/nick353/jp-bank-code-mcp", "source": "github" },
+  "websiteUrl": "https://github.com/nick353/jp-bank-code-mcp",
+  "remotes": [
+    { "type": "streamable-http", "url": "https://jp-bank-code-mcp.nichika2000823.workers.dev/mcp" }
+  ]
+}

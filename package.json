@@ -1,0 +1,9 @@
+{
+  "name": "jp-bank-code-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MCP server for Japanese bank and branch codes (zengin) and Japan Post Bank transfer conversion. No API key.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": { "test": "node --import tsx --test test/*.test.ts", "dev": "wrangler dev", "deploy": "wrangler deploy" }
+}

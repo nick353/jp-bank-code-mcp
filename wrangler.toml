@@ -1,0 +1,10 @@
+name = "jp-bank-code-mcp"
+main = "src/index.ts"
+compatibility_date = "2026-11-01"
+workers_dev = true
+preview_urls = false
+
+# 使われた数（送り元は2週ごとに変わる塩のハッシュだけ）。塩は `wrangler secret put USAGE_SALT`。
+[[analytics_engine_datasets]]
+binding = "USAGE"
+dataset = "jp_bank_code_mcp_usage"
